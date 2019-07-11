@@ -5,7 +5,7 @@ import click
 
 session = boto3.Session(profile_name='pythonDev',
                             aws_access_key_id='AKIAZYQJ5ZVQI4KCR3X6',
-                            aws_secret_access_key='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',
+
                             )
 s3 = session.resource('s3')
 
