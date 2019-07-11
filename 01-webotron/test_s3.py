@@ -24,7 +24,7 @@ class S3_testcases(unittest.TestCase):
     """ Console Command : aws s3 ls --profile <username> """
 
     session = boto3.Session(profile_name='pythonDev',
-                            aws_access_key_id='AKIAZYQJ5ZVQI4KCR3X6',
+
 
                             )
     s3 = session.resource('s3')
